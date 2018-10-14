@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("p").toggleClass("main");
+        });
+    });
+    </script>
+    <style>
+        .main {
+            font-size: 150%;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button>Toggle class "main" for p elements</button>
+    <p>Hello! STACKOVERFLOW.com</p>
+    <p>This is popular website for ALL DEVELOPERS.</p>
+    <p><b>Note:</b> Click repeatedly on the button to see the toggle effect.</p>
+</body>
+</html>  

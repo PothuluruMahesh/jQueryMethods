@@ -1,0 +1,26 @@
+﻿<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+
+$(document).ready(function(){
+    $("button").click(function(){
+        alert($("div").scrollTop() + " px");
+    });
+});
+    </script>
+</head>
+<body>
+    <div style="border:1px solid black;width:150px;height:100px;overflow:auto">
+        The jQuery scrollTop method is used to set or return the vertical scrollbar position for the selected element. 
+        When the scrollbar is on the top, it specifies the position 0.
+
+        To return the position: When this method is used to return the position, 
+        it provides the current vertical position of the first matched element in the set.
+        To set the position: When this method is used to set the position, it sets the vertical 
+        position of the scrollbar for all matched element.
+    </div><br>
+    <button>Return the vertical position of the scrollbar</button>
+    <p>Move the scrollbar down and click the button again.</p>
+</body>
+</html>  
